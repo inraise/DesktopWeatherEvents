@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-build/lib/libcurl_autogen/mocs_compilation.cpp
+

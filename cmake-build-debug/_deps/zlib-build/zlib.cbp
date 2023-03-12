@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;CMake Files\cmake-build-debug\_deps\zlib-src\;CMake Files\cmake-build-debug\_deps\zlib-src\cmake\;CMake Files\cmake-build-debug\_deps\zlib-build\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Felgo\;CMake Files\..\..\Felgo\Felgo\;CMake Files\..\..\Felgo\Felgo\macos\;CMake Files\..\..\Felgo\Felgo\macos\lib\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/libz.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPR_ENABLE_CURL_HTTP_ONLY"/>
+					<Add option="-DCPR_ENABLE_SSL"/>
+					<Add option="-DZLIB_COMPAT"/>
+					<Add option="-DWITH_GZFILEOP"/>
+					<Add option="-DUNALIGNED_OK"/>
+					<Add option="-DUNALIGNED64_OK"/>
+					<Add option="-DHAVE_SYS_SDT_H"/>
+					<Add option="-DHAVE_POSIX_MEMALIGN"/>
+					<Add option="-DHAVE_VISIBILITY_HIDDEN"/>
+					<Add option="-DHAVE_VISIBILITY_INTERNAL"/>
+					<Add option="-DHAVE_BUILTIN_CTZ"/>
+					<Add option="-DHAVE_BUILTIN_CTZLL"/>
+					<Add option="-DARM_FEATURES"/>
+					<Add option="-DARM_ACLE_CRC_HASH"/>
+					<Add option="-DARM_NEON_ADLER32"/>
+					<Add option="-DARM_NEON_CHUNKSET"/>
+					<Add option="-DARM_NEON_SLIDEHASH"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/include"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/libz.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPR_ENABLE_CURL_HTTP_ONLY"/>
+					<Add option="-DCPR_ENABLE_SSL"/>
+					<Add option="-DZLIB_COMPAT"/>
+					<Add option="-DWITH_GZFILEOP"/>
+					<Add option="-DUNALIGNED_OK"/>
+					<Add option="-DUNALIGNED64_OK"/>
+					<Add option="-DHAVE_SYS_SDT_H"/>
+					<Add option="-DHAVE_POSIX_MEMALIGN"/>
+					<Add option="-DHAVE_VISIBILITY_HIDDEN"/>
+					<Add option="-DHAVE_VISIBILITY_INTERNAL"/>
+					<Add option="-DHAVE_BUILTIN_CTZ"/>
+					<Add option="-DHAVE_BUILTIN_CTZLL"/>
+					<Add option="-DARM_FEATURES"/>
+					<Add option="-DARM_ACLE_CRC_HASH"/>
+					<Add option="-DARM_NEON_ADLER32"/>
+					<Add option="-DARM_NEON_CHUNKSET"/>
+					<Add option="-DARM_NEON_SLIDEHASH"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/include"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+					<Add directory="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib_autogen">
+				<Option working_dir="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 zlib_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/mocs_compilation.cpp">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/adler32_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/adler32_neon.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/arm.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/armfeature.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/chunkset_neon.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/crc32_acle.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/insert_string_acle.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/slide_neon.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/chunkset.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/chunkset_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/compare258.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_comb.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_comb_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_fast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_medium.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_quick.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_slow.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/functable.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/functable.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffixed_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate_p.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/insert_string.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/insert_string_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/match_tpl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees_emit.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees_tbl.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zbuild.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zendian.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/curl-config.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/libcurl.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/CurlSymbolHiding.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/FindLibSSH2.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/OtherTests.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/Utilities.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/CMake/curl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/lib/Makefile.inc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-src/lib/curl_config.h.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/curl-build/lib/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-build\lib\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cmake/clear_variable.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cmake/code_coverage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cmake/cprver.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cmake/sanitizer.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cmake/zlib_external.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/cpr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cpr\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-src/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\include\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-coverage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-install-dirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-sanitizer.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-build\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

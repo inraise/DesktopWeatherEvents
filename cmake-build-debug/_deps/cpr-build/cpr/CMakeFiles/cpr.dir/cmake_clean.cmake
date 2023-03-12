@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cpr_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/cpr_autogen.dir/ParseCache.txt"
+  "cpr_autogen"
+  "CMakeFiles/cpr.dir/accept_encoding.cpp.o"
+  "CMakeFiles/cpr.dir/async.cpp.o"
+  "CMakeFiles/cpr.dir/auth.cpp.o"
+  "CMakeFiles/cpr.dir/bearer.cpp.o"
+  "CMakeFiles/cpr.dir/callback.cpp.o"
+  "CMakeFiles/cpr.dir/cert_info.cpp.o"
+  "CMakeFiles/cpr.dir/cookies.cpp.o"
+  "CMakeFiles/cpr.dir/cpr_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/cpr.dir/cprtypes.cpp.o"
+  "CMakeFiles/cpr.dir/curl_container.cpp.o"
+  "CMakeFiles/cpr.dir/curlholder.cpp.o"
+  "CMakeFiles/cpr.dir/curlmultiholder.cpp.o"
+  "CMakeFiles/cpr.dir/error.cpp.o"
+  "CMakeFiles/cpr.dir/file.cpp.o"
+  "CMakeFiles/cpr.dir/interceptor.cpp.o"
+  "CMakeFiles/cpr.dir/multipart.cpp.o"
+  "CMakeFiles/cpr.dir/multiperform.cpp.o"
+  "CMakeFiles/cpr.dir/parameters.cpp.o"
+  "CMakeFiles/cpr.dir/payload.cpp.o"
+  "CMakeFiles/cpr.dir/proxies.cpp.o"
+  "CMakeFiles/cpr.dir/proxyauth.cpp.o"
+  "CMakeFiles/cpr.dir/redirect.cpp.o"
+  "CMakeFiles/cpr.dir/response.cpp.o"
+  "CMakeFiles/cpr.dir/session.cpp.o"
+  "CMakeFiles/cpr.dir/ssl_ctx.cpp.o"
+  "CMakeFiles/cpr.dir/threadpool.cpp.o"
+  "CMakeFiles/cpr.dir/timeout.cpp.o"
+  "CMakeFiles/cpr.dir/unix_socket.cpp.o"
+  "CMakeFiles/cpr.dir/util.cpp.o"
+  "libcpr.1.9.0.dylib"
+  "libcpr.1.dylib"
+  "libcpr.dylib"
+  "libcpr.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cpr.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

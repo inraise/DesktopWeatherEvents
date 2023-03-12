@@ -1,0 +1,416 @@
+{
+	"BUILD_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src",
+	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/CMakeLists.txt",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckTypeSize.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckIncludeFile.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckIncludeFileCXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckSymbolExists.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckIncludeFile.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckCSourceRuns.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Internal/CheckSourceRuns.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckCCompilerFlag.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Internal/CheckCompilerFlag.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeDependentOption.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FeatureSummary.cmake",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-install-dirs.cmake",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-coverage.cmake",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/cmake/detect-sanitizer.cmake",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zlib.pc.cmakein",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zconf.h.cmakein"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zconf.h",
+			"MU",
+			"EJRQKI7XPS/moc_zconf.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/adler32_p.h",
+			"MU",
+			"EWIEGA46WW/moc_adler32_p.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/arm.h",
+			"MU",
+			"4CTZ53UBCW/moc_arm.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/chunkset_tpl.h",
+			"MU",
+			"EWIEGA46WW/moc_chunkset_tpl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_comb_tbl.h",
+			"MU",
+			"EWIEGA46WW/moc_crc32_comb_tbl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_p.h",
+			"MU",
+			"EWIEGA46WW/moc_crc32_p.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_tbl.h",
+			"MU",
+			"EWIEGA46WW/moc_crc32_tbl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate.h",
+			"MU",
+			"EWIEGA46WW/moc_deflate.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_p.h",
+			"MU",
+			"EWIEGA46WW/moc_deflate_p.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/functable.h",
+			"MU",
+			"EWIEGA46WW/moc_functable.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzguts.h",
+			"MU",
+			"EWIEGA46WW/moc_gzguts.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffast.h",
+			"MU",
+			"EWIEGA46WW/moc_inffast.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffixed_tbl.h",
+			"MU",
+			"EWIEGA46WW/moc_inffixed_tbl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate.h",
+			"MU",
+			"EWIEGA46WW/moc_inflate.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate_p.h",
+			"MU",
+			"EWIEGA46WW/moc_inflate_p.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inftrees.h",
+			"MU",
+			"EWIEGA46WW/moc_inftrees.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/insert_string_tpl.h",
+			"MU",
+			"EWIEGA46WW/moc_insert_string_tpl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/match_tpl.h",
+			"MU",
+			"EWIEGA46WW/moc_match_tpl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees.h",
+			"MU",
+			"EWIEGA46WW/moc_trees.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees_emit.h",
+			"MU",
+			"EWIEGA46WW/moc_trees_emit.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees_tbl.h",
+			"MU",
+			"EWIEGA46WW/moc_trees_tbl.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zbuild.h",
+			"MU",
+			"EWIEGA46WW/moc_zbuild.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zendian.h",
+			"MU",
+			"EWIEGA46WW/moc_zendian.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zlib.h",
+			"MU",
+			"EWIEGA46WW/moc_zlib.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zutil.h",
+			"MU",
+			"EWIEGA46WW/moc_zutil.cpp",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zutil_p.h",
+			"MU",
+			"EWIEGA46WW/moc_zutil_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ARM_ACLE_CRC_HASH",
+		"ARM_FEATURES",
+		"ARM_NEON_ADLER32",
+		"ARM_NEON_CHUNKSET",
+		"ARM_NEON_SLIDEHASH",
+		"CPR_ENABLE_CURL_HTTP_ONLY",
+		"CPR_ENABLE_SSL",
+		"HAVE_BUILTIN_CTZ",
+		"HAVE_BUILTIN_CTZLL",
+		"HAVE_POSIX_MEMALIGN",
+		"HAVE_SYS_SDT_H",
+		"HAVE_VISIBILITY_HIDDEN",
+		"HAVE_VISIBILITY_INTERNAL",
+		"UNALIGNED64_OK",
+		"UNALIGNED_OK",
+		"WITH_GZFILEOP",
+		"ZLIB_COMPAT",
+		"ZLIB_DLL"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build",
+		"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zlib_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/CMakeFiles/zlib_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/daniilharitonov/Documents/Felgo/Felgo/macos/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/daniilharitonov/Documents/Felgo/Felgo/macos/./libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 4,
+	"SETTINGS_FILE" : "/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/CMakeFiles/zlib_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/adler32.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/adler32_neon.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/armfeature.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/chunkset_neon.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/crc32_acle.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/insert_string_acle.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/arch/arm/slide_neon.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/chunkset.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/compare258.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/compress.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/crc32_comb.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_fast.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_medium.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_quick.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/deflate_slow.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/functable.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzlib.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzread.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/gzwrite.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/infback.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inffast.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inflate.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/inftrees.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/insert_string.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/trees.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/uncompr.c",
+			"MU",
+			null
+		],
+		[
+			"/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-src/zutil.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
