@@ -5,12 +5,12 @@ int UiManagement(int argc, char *argv[], const CurrentWeatherData& currentWeathe
 
 using namespace std;
 
-
 int main(int argc, char *argv[]) {
-    CurrentWeatherData currentWeatherData;
+    //CurrentWeatherData currentWeatherData;
     UserLocation userLocation;
     //currentWeatherData.enterUserCity(); // user parameter need to get in program !!
-    userLocation.getUserCoordsFromIP();
+    userLocation.getUserIP();
+    userLocation.getUserCoords();
 
-    UiManagement(argc, argv, currentWeatherData);
+    //UiManagement(argc, argv, currentWeatherData);
 }

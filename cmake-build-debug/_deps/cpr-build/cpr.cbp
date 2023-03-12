@@ -5,7 +5,7 @@
 		<Option title="cpr"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;CMake Files\cmake-build-debug\_deps\zlib-src\;CMake Files\cmake-build-debug\_deps\zlib-src\cmake\;CMake Files\cmake-build-debug\_deps\zlib-build\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Felgo\;CMake Files\..\..\Felgo\Felgo\;CMake Files\..\..\Felgo\Felgo\macos\;CMake Files\..\..\Felgo\Felgo\macos\lib\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;CMake Files\cmake-build-debug\_deps\zlib-src\;CMake Files\cmake-build-debug\_deps\zlib-src\cmake\;CMake Files\cmake-build-debug\_deps\zlib-build\;CMake Files\cmake-build-debug\_deps\json-src\;CMake Files\cmake-build-debug\_deps\json-src\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Felgo\;CMake Files\..\..\Felgo\Felgo\;CMake Files\..\..\Felgo\Felgo\macos\;CMake Files\..\..\Felgo\Felgo\macos\lib\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Core\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Gui\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBus\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6DBusTools\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6Widgets\;CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6WidgetsTools\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/cpr-build"/>
@@ -1617,6 +1617,18 @@
 		</Unit>
 		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/zlib-build/zconf.h.cmakein">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-build\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/json-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/json-src/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/cmake-build-debug/_deps/json-src/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\json-src\cmake\"/>
 		</Unit>
 		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/../../Felgo/Felgo/macos/lib/cmake/Qt6/FindWrapAtomic.cmake">
 			<Option virtualFolder="CMake Files\..\..\Felgo\Felgo\macos\lib\cmake\Qt6\"/>
