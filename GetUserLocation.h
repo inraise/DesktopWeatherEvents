@@ -1,6 +1,8 @@
 #include <cpr/cpr.h>
 #include <iostream>
 #include <nlohmann/json.hpp>
+#include <QGeoPositionInfoSource>
+#include <QGeoCoordinate>
 
 using namespace std;
 using namespace cpr;
@@ -9,12 +11,18 @@ using json = nlohmann::json;
 class UserLocation {
 public:
     string getLat() {
-        return userLatCoord;
+        return to_string(userLatCoord);
     }
 
     string getLon() {
-        return userLonCoord;
+        return to_string(userLonCoord);
     }
+
+//    void getUserLocation() {
+//        QGeoPositionInfoSource *source = QGeoPositionInfoSource::createDefaultSource(0);
+//        if (source)
+//            source->setUpdateInterval(100000);
+//    }
 
     void getUserIP() {
         Response requestIp = Get(Url{"https://api.ipify.org?format=json"});
@@ -30,5 +38,6 @@ public:
     }
 
 private:
-    string userIP, userLatCoord, userLonCoord;
+    string userIP;
+    double userLatCoord, userLonCoord;
 };

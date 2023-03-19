@@ -13,6 +13,7 @@ find_package(Qt6 COMPONENTS
         Gui
         Widgets
         REQUIRED
+        location
         )
 
 add_executable(DesktopWeatherEvents main.cpp CurrentWeatherData.h TopBarElement.cpp UiManagement.cpp GetUserLocation.h)
@@ -28,6 +29,7 @@ target_link_libraries(DesktopWeatherEvents
         Qt::Core
         Qt::Gui
         Qt::Widgets
+        Qt::Location
         cpr::cpr
         nlohmann_json::nlohmann_json
         )

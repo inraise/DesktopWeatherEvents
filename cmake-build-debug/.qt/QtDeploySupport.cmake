@@ -36,6 +36,7 @@ set(__QT_DEFAULT_MAJOR_VERSION "6")
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
     "/Users/daniilharitonov/Documents/Felgo/Felgo/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/Users/daniilharitonov/Documents/Felgo/Felgo/macos/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")
