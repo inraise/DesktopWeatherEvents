@@ -302,6 +302,30 @@ DesktopWeatherEvents_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesktopWeatherEvents.dir/build.make CMakeFiles/DesktopWeatherEvents.dir/DesktopWeatherEvents_autogen/mocs_compilation.cpp.s
 .PHONY : DesktopWeatherEvents_autogen/mocs_compilation.cpp.s
 
+MainElement.o: MainElement.cpp.o
+.PHONY : MainElement.o
+
+# target to build an object file
+MainElement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesktopWeatherEvents.dir/build.make CMakeFiles/DesktopWeatherEvents.dir/MainElement.cpp.o
+.PHONY : MainElement.cpp.o
+
+MainElement.i: MainElement.cpp.i
+.PHONY : MainElement.i
+
+# target to preprocess a source file
+MainElement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesktopWeatherEvents.dir/build.make CMakeFiles/DesktopWeatherEvents.dir/MainElement.cpp.i
+.PHONY : MainElement.cpp.i
+
+MainElement.s: MainElement.cpp.s
+.PHONY : MainElement.s
+
+# target to generate assembly for a file
+MainElement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesktopWeatherEvents.dir/build.make CMakeFiles/DesktopWeatherEvents.dir/MainElement.cpp.s
+.PHONY : MainElement.cpp.s
+
 TopBarElement.o: TopBarElement.cpp.o
 .PHONY : TopBarElement.o
 
@@ -398,6 +422,9 @@ help:
 	@echo "... DesktopWeatherEvents_autogen/mocs_compilation.o"
 	@echo "... DesktopWeatherEvents_autogen/mocs_compilation.i"
 	@echo "... DesktopWeatherEvents_autogen/mocs_compilation.s"
+	@echo "... MainElement.o"
+	@echo "... MainElement.i"
+	@echo "... MainElement.s"
 	@echo "... TopBarElement.o"
 	@echo "... TopBarElement.i"
 	@echo "... TopBarElement.s"

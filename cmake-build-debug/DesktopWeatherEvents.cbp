@@ -462,6 +462,9 @@
 		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/GetUserLocation.h">
 			<Option target="DesktopWeatherEvents"/>
 		</Unit>
+		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/MainElement.cpp">
+			<Option target="DesktopWeatherEvents"/>
+		</Unit>
 		<Unit filename="/Users/daniilharitonov/Documents/C/DesktopWeatherEvents/TopBarElement.cpp">
 			<Option target="DesktopWeatherEvents"/>
 		</Unit>

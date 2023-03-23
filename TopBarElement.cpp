@@ -5,6 +5,8 @@
 #include <QFontDatabase>
 #include "CurrentWeatherData.h"
 #include <string>
+#include <string>
+#include <cctype>
 #include <nlohmann/json.hpp>
 
 using namespace std;
@@ -36,9 +38,11 @@ void TopBarElement(
             "margin-left: 440px; color: #303030; font-size: 20px;");
     appCityName->show();
 
-    QFrame * line = new QFrame(mainWindow);
-    line->setObjectName(QString::fromUtf8("line"));
-    line->setGeometry(QRect(320, 150, 118, 1));
-    line->setFrameShape(QFrame::HLine);
-    line->setFrameShadow(QFrame::Sunken);
+    QWidget * line = new QLabel(mainWindow);
+    line->resize(660, 1);
+    line->setFixedHeight(1);
+    line->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    line->move(20, 100);
+    line->setStyleSheet(QString("background-color: #303030;"));
+    line->show();
 }

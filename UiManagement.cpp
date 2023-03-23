@@ -16,6 +16,13 @@ void TopBarElement(
         json jsonWeatherData
 );
 
+void MainElement(
+        int argc, char *argv[],
+        QMainWindow *mainWindow,
+        const QFont &font,
+        json jsonWeatherData
+);
+
 int UiManagement(
         int argc,
         char *argv[],
@@ -34,6 +41,7 @@ int UiManagement(
     );
 
     TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
+    MainElement(argc, argv, &mainWindow, font, jsonWeatherData);
 
     mainWindow.setFixedWidth(700);
     mainWindow.showMaximized();

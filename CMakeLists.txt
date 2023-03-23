@@ -16,7 +16,7 @@ find_package(Qt6 COMPONENTS
         location
         )
 
-add_executable(DesktopWeatherEvents main.cpp CurrentWeatherData.h TopBarElement.cpp UiManagement.cpp GetUserLocation.h)
+add_executable(DesktopWeatherEvents main.cpp CurrentWeatherData.h TopBarElement.cpp UiManagement.cpp GetUserLocation.h MainElement.cpp)
 
 include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
