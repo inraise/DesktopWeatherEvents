@@ -27,7 +27,7 @@ int UiManagement(
         int argc,
         char *argv[],
         const CurrentWeatherData &currentWeatherData,
-        json jsonWeatherData
+        const json &jsonWeatherData
 ) {
     QApplication application(argc, argv);
     QMainWindow mainWindow;
@@ -44,6 +44,7 @@ int UiManagement(
     MainElement(argc, argv, &mainWindow, font, jsonWeatherData);
 
     mainWindow.setFixedWidth(700);
+    mainWindow.setFixedHeight(500);
     mainWindow.showMaximized();
     return QApplication::exec();
 }

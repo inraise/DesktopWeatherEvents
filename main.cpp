@@ -6,7 +6,7 @@ int UiManagement(
         int argc,
         char *argv[],
         const CurrentWeatherData &currentWeatherData,
-        json jsonWeatherData
+        const json &jsonWeatherData
 );
 
 using namespace std;
@@ -25,4 +25,6 @@ int main(int argc, char *argv[]) {
     json jsonWeatherData = currentWeatherData.getJsonWeather();
 
     UiManagement(argc, argv, currentWeatherData, jsonWeatherData);
+    // refresh
+    // socket
 }
