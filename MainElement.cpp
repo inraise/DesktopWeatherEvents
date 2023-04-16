@@ -91,40 +91,34 @@ void MainElement(
 
     auto *weatherTemp = new QLabel(mainWindow);
     weatherTemp->setText(QString::fromStdString(weatherTempValue) + "˙C");
-    weatherTemp->resize(300, 150);
-    weatherTemp->move(305, 120);
+    weatherTemp->resize(300, 140);
+    weatherTemp->move(335, 105);
     weatherTemp->setFont(font);
     weatherTemp->setAlignment(Qt::AlignCenter);
     weatherTemp->setStyleSheet(
-            "color: #303030; font-size: 35px;");
+            "color: #303030; font-size: 45px;");
     weatherTemp->show();
-
-    auto *weatherUpDown = new QLabel(mainWindow);
-    weatherUpDown->setText(
-            "↑" + QString::fromStdString(to_string(jsonWeatherData["main"]["temp_max"])) + "˙C"
-            + "\t↓" +
-            QString::fromStdString(to_string(jsonWeatherData["main"]["temp_min"])) + "˙C"
-    );
-    weatherUpDown->resize(300, 100);
-    weatherUpDown->move(290, 220);
-    weatherUpDown->setFont(font);
-    weatherUpDown->setAlignment(Qt::AlignCenter);
-    weatherUpDown->setStyleSheet(
-            "color: #303030; font-size: 15px;");
-    weatherUpDown->show();
-
 
     auto *weatherHumidity = new QLabel(mainWindow);
     weatherHumidity->setText(
-            "Humidity: " + QString::fromStdString(to_string(jsonWeatherData["main"]["humidity"])) + "%\n" +
-            "Pressure: " + QString::fromStdString(to_string(jsonWeatherData["main"]["pressure"])) + " hPa\n" +
-            "Wind Speed: " + QString::fromStdString(to_string(jsonWeatherData["wind"]["speed"])) + " m/s"
+            "◦ Humidity: " + QString::fromStdString(to_string(jsonWeatherData["main"]["humidity"])) + "%\n" +
+            "◦ Pressure: " + QString::fromStdString(to_string(jsonWeatherData["main"]["pressure"])) + " hPa\n" +
+            "◦ Wind Speed: " + QString::fromStdString(to_string(jsonWeatherData["wind"]["speed"])) + " m/s\n" +
+            "◦ Clouds: " + QString::fromStdString(to_string(jsonWeatherData["clouds"]["all"])) + "%"
     );
     weatherHumidity->resize(300, 200);
-    weatherHumidity->move(290, 250);
+    weatherHumidity->move(300, 230);
     weatherHumidity->setFont(font);
     weatherHumidity->setAlignment(Qt::AlignLeft);
     weatherHumidity->setStyleSheet(
             "color: #303030; font-size: 25px;");
     weatherHumidity->show();
+
+    QWidget * line = new QLabel(mainWindow);
+    line->resize(380, 1);
+    line->setFixedHeight(1);
+    line->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    line->move(300, 230);
+    line->setStyleSheet(QString("background-color: #303030;"));
+    line->show();
 }

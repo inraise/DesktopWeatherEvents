@@ -40,8 +40,8 @@ int UiManagement(
             "padding: 30px"
     );
 
-    TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
     MainElement(argc, argv, &mainWindow, font, jsonWeatherData);
+    TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
 
     mainWindow.setFixedWidth(700);
     mainWindow.setFixedHeight(500);
