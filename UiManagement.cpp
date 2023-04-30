@@ -20,14 +20,15 @@ void MainElement(
         int argc, char *argv[],
         QMainWindow *mainWindow,
         const QFont &font,
-        json jsonWeatherData
+        json jsonWeatherData,
+        CurrentWeatherData currentWeatherData
 );
 
 int UiManagement(
         int argc,
         char *argv[],
         CurrentWeatherData currentWeatherData,
-        const json& jsonWeatherData
+        const json &jsonWeatherData
 ) {
     QApplication application(argc, argv);
     QMainWindow mainWindow;
@@ -40,7 +41,7 @@ int UiManagement(
             "padding: 30px"
     );
 
-    MainElement(argc, argv, &mainWindow, font, jsonWeatherData);
+    MainElement(argc, argv, &mainWindow, font, jsonWeatherData, currentWeatherData);
     TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
 
     mainWindow.setFixedWidth(700);

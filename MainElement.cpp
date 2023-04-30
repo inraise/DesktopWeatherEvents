@@ -11,13 +11,15 @@
 #include <string>
 #include <cctype>
 #include <nlohmann/json.hpp>
+#include <utility>
 
 using namespace std;
 using json = nlohmann::json;
 
-QString cityName;
+QLineEdit *lineEdit;
 
-void setCity () {
+void setCity() {
+    QString cityName = lineEdit->text();
     cout << cityName.toStdString();
 }
 
@@ -25,9 +27,11 @@ void MainElement(
         int argc, char *argv[],
         QMainWindow *mainWindow,
         const QFont &font,
-        json jsonWeatherData
+        json jsonWeatherData,
+        CurrentWeatherData currentWeatherData
 ) {
     string imageString;
+
     switch (to_string(jsonWeatherData["weather"][0]["id"])[0]) {
         case ('2'):
             imageString = "thunder.png";
@@ -78,7 +82,7 @@ void MainElement(
 
     auto *widgetActionInput = new QWidgetAction(mainWindow);
     auto *widgetActionButton = new QWidgetAction(mainWindow);
-    auto *lineEdit = new QLineEdit(mainWindow);
+    lineEdit = new QLineEdit(mainWindow);
     lineEdit->setPlaceholderText("City Name");
     lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
                             "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
@@ -89,11 +93,10 @@ void MainElement(
     QObject::connect(button, &QPushButton::clicked, setCity);
     button->setStyleSheet(
             "background-color: transparent;"
-            );
+    );
     widgetActionButton->setDefaultWidget(button);
 
     auto *menuBar = new QMenuBar(mainWindow);
-    cityName = lineEdit->text();
 
     auto *menu = new QMenu("Settings");
     menu->addAction(widgetActionInput);
@@ -142,7 +145,7 @@ void MainElement(
             "color: #303030; font-size: 25px;");
     weatherHumidity->show();
 
-    QWidget * line = new QLabel(mainWindow);
+    QWidget *line = new QLabel(mainWindow);
     line->resize(380, 1);
     line->setFixedHeight(1);
     line->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
