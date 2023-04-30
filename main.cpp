@@ -25,6 +25,4 @@ int main(int argc, char *argv[]) {
     json jsonWeatherData = currentWeatherData.getJsonWeather();
 
     UiManagement(argc, argv, currentWeatherData, jsonWeatherData);
-    // refresh
-    // socket
 }
