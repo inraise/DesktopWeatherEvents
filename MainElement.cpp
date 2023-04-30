@@ -5,6 +5,7 @@
 #include <QFontDatabase>
 #include <QMenuBar>
 #include <QLineEdit>
+#include <QPushButton>
 #include <QWidgetAction>
 #include "CurrentWeatherData.h"
 #include <string>
@@ -13,6 +14,12 @@
 
 using namespace std;
 using json = nlohmann::json;
+
+QString cityName;
+
+void setCity () {
+    cout << cityName.toStdString();
+}
 
 void MainElement(
         int argc, char *argv[],
@@ -69,19 +76,28 @@ void MainElement(
             "color: #303030; font-size: 23px;");
     weatherName->show();
 
-    auto *widgetAction = new QWidgetAction(mainWindow);
+    auto *widgetActionInput = new QWidgetAction(mainWindow);
+    auto *widgetActionButton = new QWidgetAction(mainWindow);
     auto *lineEdit = new QLineEdit(mainWindow);
     lineEdit->setPlaceholderText("City Name");
     lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
                             "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
-    widgetAction->setDefaultWidget(lineEdit);
+    widgetActionInput->setDefaultWidget(lineEdit);
+
+    auto *button = new QPushButton("Set City");
+
+    QObject::connect(button, &QPushButton::clicked, setCity);
+    button->setStyleSheet(
+            "background-color: transparent;"
+            );
+    widgetActionButton->setDefaultWidget(button);
 
     auto *menuBar = new QMenuBar(mainWindow);
-    QString city = lineEdit->text();
+    cityName = lineEdit->text();
 
     auto *menu = new QMenu("Settings");
-    menu->addAction(widgetAction);
-    menu->addAction("Set City");
+    menu->addAction(widgetActionInput);
+    menu->addAction(widgetActionButton);
     menuBar->addAction(menu->menuAction());
 
     menuBar->setNativeMenuBar(true);
@@ -92,12 +108,24 @@ void MainElement(
     auto *weatherTemp = new QLabel(mainWindow);
     weatherTemp->setText(QString::fromStdString(weatherTempValue) + "˙C");
     weatherTemp->resize(300, 140);
-    weatherTemp->move(335, 105);
+    weatherTemp->move(370, 110);
     weatherTemp->setFont(font);
     weatherTemp->setAlignment(Qt::AlignCenter);
     weatherTemp->setStyleSheet(
             "color: #303030; font-size: 45px;");
     weatherTemp->show();
+
+    QPixmap imageTempRaw(QString::fromStdString("tempp.png"));
+    QPixmap imageTemp = imageTempRaw.scaled(QSize(64, 64),
+                                            Qt::IgnoreAspectRatio,
+                                            Qt::SmoothTransformation);
+
+    auto *imageTempLabel = new QLabel(mainWindow);
+    imageTempLabel->setPixmap(imageTemp);
+    imageTempLabel->resize(150, 150);
+    imageTempLabel->setStyleSheet("background-color: none;");
+    imageTempLabel->move(350, 95);
+    imageTempLabel->show();
 
     auto *weatherHumidity = new QLabel(mainWindow);
     weatherHumidity->setText(
@@ -106,7 +134,7 @@ void MainElement(
             "◦ Wind Speed: " + QString::fromStdString(to_string(jsonWeatherData["wind"]["speed"])) + " m/s\n" +
             "◦ Clouds: " + QString::fromStdString(to_string(jsonWeatherData["clouds"]["all"])) + "%"
     );
-    weatherHumidity->resize(300, 200);
+    weatherHumidity->resize(300, 210);
     weatherHumidity->move(300, 230);
     weatherHumidity->setFont(font);
     weatherHumidity->setAlignment(Qt::AlignLeft);

@@ -5,8 +5,8 @@
 int UiManagement(
         int argc,
         char *argv[],
-        const CurrentWeatherData &currentWeatherData,
-        const json &jsonWeatherData
+        CurrentWeatherData currentWeatherData,
+        const json& jsonWeatherData
 );
 
 using namespace std;

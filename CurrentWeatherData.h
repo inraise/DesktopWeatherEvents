@@ -13,12 +13,9 @@ public:
         return stringRequest;
     }
 
-    void enterUserCity() {
-        string enterUserCity;
-        cout << "Enter the name of the city: ";
-        cin >> enterUserCity;
-
-        this->userCity = enterUserCity;
+    void enterUserCity(string enterUserCity) {
+        this->userCity = std::move(enterUserCity);
+        getCurrentCityWeather("https://api.openweathermap.org/data/2.5/weather");
     }
 
     void enterUserCoords(string lat, string lon) {
@@ -36,11 +33,26 @@ public:
                 Url{
                         move(requestUrl)
                 },
-                Parameters{{"lat", userLat},
-                           {"lon", userLon},
+                Parameters{{"lat",   userLat},
+                           {"lon",   userLon},
                            {"appid", "846bddc7aaba499cd60058e2d06ad6e7"},
-                           {"units", "metric"},
-                           /*{"lang", "ru"}*/}
+                           {"units", "metric"}
+                }
+        );
+
+        this->stringRequest = request.text;
+    }
+
+
+    void getCurrentCityWeather(string requestUrl) {
+        Response
+                request = Get(
+                Url{
+                        move(requestUrl)
+                },
+                Parameters{{"q",     userCity},
+                           {"appid", "846bddc7aaba499cd60058e2d06ad6e7"},
+                           {"units", "metric"}}
         );
 
         this->stringRequest = request.text;

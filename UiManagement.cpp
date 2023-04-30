@@ -26,8 +26,8 @@ void MainElement(
 int UiManagement(
         int argc,
         char *argv[],
-        const CurrentWeatherData &currentWeatherData,
-        const json &jsonWeatherData
+        CurrentWeatherData currentWeatherData,
+        const json& jsonWeatherData
 ) {
     QApplication application(argc, argv);
     QMainWindow mainWindow;
