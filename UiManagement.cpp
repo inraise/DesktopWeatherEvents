@@ -44,6 +44,7 @@ int UiManagement(
     MainElement(argc, argv, &mainWindow, font, jsonWeatherData, currentWeatherData);
     TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
 
+    mainWindow.setWindowTitle("Weather Events");
     mainWindow.setFixedWidth(700);
     mainWindow.setFixedHeight(500);
     mainWindow.showMaximized();
