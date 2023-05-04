@@ -16,13 +16,6 @@
 using namespace std;
 using json = nlohmann::json;
 
-QLineEdit *lineEdit;
-
-void setCity() {
-    QString cityName = lineEdit->text();
-    cout << cityName.toStdString();
-}
-
 void MainElement(
         int argc, char *argv[],
         QMainWindow *mainWindow,
@@ -80,7 +73,7 @@ void MainElement(
             "color: #303030; font-size: 23px;");
     weatherName->show();
 
-    auto *widgetActionInput = new QWidgetAction(mainWindow);
+    /*    auto *widgetActionInput = new QWidgetAction(mainWindow);
     auto *widgetActionButton = new QWidgetAction(mainWindow);
     lineEdit = new QLineEdit(mainWindow);
     lineEdit->setPlaceholderText("City Name");
@@ -90,7 +83,9 @@ void MainElement(
 
     auto *button = new QPushButton("Set City");
 
+/// on click
     QObject::connect(button, &QPushButton::clicked, setCity);
+
     button->setStyleSheet(
             "background-color: transparent;"
     );
@@ -104,7 +99,7 @@ void MainElement(
     menuBar->addAction(menu->menuAction());
 
     menuBar->setNativeMenuBar(true);
-    menuBar->show();
+    menuBar->show();*/
 
     string weatherTempValue = to_string(jsonWeatherData["main"]["temp"]);
 
