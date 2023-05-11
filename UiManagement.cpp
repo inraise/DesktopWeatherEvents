@@ -32,26 +32,15 @@ void MainElement(
 
 class ButtonBar : public QObject {
 Q_OBJECT
+public slots:
+
+    void setCity();
+
 public:
-    ButtonBar(QObject *parent, CurrentWeatherData currentWeatherData, string city);
-
-    QPushButton *myButton{};
+    json jsonData;
+    string city;
+    CurrentWeatherData currentWeatherData;
 };
-
-ButtonBar::ButtonBar(QObject *parent, CurrentWeatherData currentWeatherData, string city)
-        : QObject(parent) {
-    myButton = new QPushButton("Set City");
-    connect(
-            myButton, SIGNAL(clicked()), this,
-            SLOT(setCity(currentWeatherData, city))
-    );
-}
-
-
-json setCity(CurrentWeatherData currentWeatherData, string city) {
-    currentWeatherData.enterUserCity(std::move(city));
-    return currentWeatherData.getJsonWeather();
-}
 
 
 int UiManagement(
@@ -62,6 +51,9 @@ int UiManagement(
 ) {
     QApplication application(argc, argv);
     QMainWindow mainWindow;
+    ButtonBar buttonBar;
+    buttonBar.currentWeatherData = currentWeatherData;
+    buttonBar.jsonData = jsonWeatherData;
 
     // menu bar
     auto *widgetActionInput = new QWidgetAction(&mainWindow);
@@ -72,8 +64,10 @@ int UiManagement(
                             "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
     widgetActionInput->setDefaultWidget(lineEdit);
 
-    ButtonBar buttonBar(&mainWindow, currentWeatherData, lineEdit->text().toStdString());
-    auto *button = buttonBar.myButton;
+    auto *button = new QPushButton("Set City");
+    buttonBar.city = lineEdit->text().toStdString();
+
+    QObject::connect(button, SIGNAL(clicked()), &buttonBar, SLOT(setCity()));
 
     button->setStyleSheet(
             "background-color: transparent;"
@@ -99,8 +93,11 @@ int UiManagement(
             "padding: 30px"
     );
 
-    MainElement(argc, argv, &mainWindow, font, jsonWeatherData, currentWeatherData);
-    TopBarElement(argc, argv, &mainWindow, font, jsonWeatherData);
+    MainElement(argc, argv, &mainWindow, font,
+                buttonBar.jsonData,
+                buttonBar.currentWeatherData);
+    TopBarElement(argc, argv, &mainWindow, font,
+                  buttonBar.jsonData);
 
     mainWindow.setWindowTitle("Weather Events");
     mainWindow.setFixedWidth(700);
@@ -108,3 +105,10 @@ int UiManagement(
     mainWindow.showMaximized();
     return QApplication::exec();
 }
+
+void ButtonBar::setCity() {
+    currentWeatherData.enterUserCity(std::move(city));
+    jsonData = currentWeatherData.getJsonWeather();
+}
+
+#include "UiManagement.moc"
