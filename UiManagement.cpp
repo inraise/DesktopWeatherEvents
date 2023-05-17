@@ -13,6 +13,7 @@
 
 using namespace std;
 using json = nlohmann::json;
+QLineEdit *lineEdit;
 
 void TopBarElement(
         int argc, char *argv[],
@@ -37,8 +38,12 @@ public slots:
     void setCity();
 
 public:
+    int argc{};
+    char *argv{};
     json jsonData;
     string city;
+    QFont font;
+    QMainWindow *mainWindow{};
     CurrentWeatherData currentWeatherData;
 };
 
@@ -54,18 +59,21 @@ int UiManagement(
     ButtonBar buttonBar;
     buttonBar.currentWeatherData = currentWeatherData;
     buttonBar.jsonData = jsonWeatherData;
+    buttonBar.mainWindow = &mainWindow;
+    buttonBar.argc = argc;
+    buttonBar.argv = *argv;
 
     // menu bar
     auto *widgetActionInput = new QWidgetAction(&mainWindow);
     auto *widgetActionButton = new QWidgetAction(&mainWindow);
-    auto *lineEdit = new QLineEdit(&mainWindow);
+    lineEdit = new QLineEdit(&mainWindow);
     lineEdit->setPlaceholderText("City Name");
     lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
                             "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
     widgetActionInput->setDefaultWidget(lineEdit);
 
     auto *button = new QPushButton("Set City");
-    buttonBar.city = lineEdit->text().toStdString();
+    //buttonBar.city = lineEdit->text().toStdString();
 
     QObject::connect(button, SIGNAL(clicked()), &buttonBar, SLOT(setCity()));
 
@@ -87,6 +95,7 @@ int UiManagement(
 
     auto fontId = QFontDatabase::addApplicationFont(":/fonts/thickthinks.ttf");
     QFont font = QFont("Thick Thinks", 10, 1);
+    buttonBar.font = font;
 
     mainWindow.setStyleSheet(
             "background: #FFF5EE;"
@@ -107,8 +116,17 @@ int UiManagement(
 }
 
 void ButtonBar::setCity() {
-    currentWeatherData.enterUserCity(std::move(city));
+    city = lineEdit->text().toStdString();
+    currentWeatherData.enterUserCity(city);
     jsonData = currentWeatherData.getJsonWeather();
+
+    if (!city.empty()) {
+        MainElement(argc, &argv, mainWindow, font,
+                    jsonData,
+                    currentWeatherData);
+        TopBarElement(argc, &argv, mainWindow, font,
+                      jsonData);
+    }
 }
 
 #include "UiManagement.moc"

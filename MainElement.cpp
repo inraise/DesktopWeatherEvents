@@ -56,7 +56,6 @@ void MainElement(
     auto *imageLabel = new QLabel(mainWindow);
     imageLabel->setPixmap(image);
     imageLabel->resize(250, 250);
-    imageLabel->setStyleSheet("background-color: none;");
     imageLabel->move(10, 85);
     imageLabel->show();
 
@@ -72,34 +71,6 @@ void MainElement(
     weatherName->setStyleSheet(
             "color: #303030; font-size: 23px;");
     weatherName->show();
-
-    /*    auto *widgetActionInput = new QWidgetAction(mainWindow);
-    auto *widgetActionButton = new QWidgetAction(mainWindow);
-    lineEdit = new QLineEdit(mainWindow);
-    lineEdit->setPlaceholderText("City Name");
-    lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
-                            "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
-    widgetActionInput->setDefaultWidget(lineEdit);
-
-    auto *button = new QPushButton("Set City");
-
-/// on click
-    QObject::connect(button, &QPushButton::clicked, setCity);
-
-    button->setStyleSheet(
-            "background-color: transparent;"
-    );
-    widgetActionButton->setDefaultWidget(button);
-
-    auto *menuBar = new QMenuBar(mainWindow);
-
-    auto *menu = new QMenu("Settings");
-    menu->addAction(widgetActionInput);
-    menu->addAction(widgetActionButton);
-    menuBar->addAction(menu->menuAction());
-
-    menuBar->setNativeMenuBar(true);
-    menuBar->show();*/
 
     string weatherTempValue = to_string(jsonWeatherData["main"]["temp"]);
 
@@ -132,7 +103,7 @@ void MainElement(
             "◦ Wind Speed: " + QString::fromStdString(to_string(jsonWeatherData["wind"]["speed"])) + " m/s\n" +
             "◦ Clouds: " + QString::fromStdString(to_string(jsonWeatherData["clouds"]["all"])) + "%"
     );
-    weatherHumidity->resize(300, 210);
+    weatherHumidity->resize(350, 210);
     weatherHumidity->move(300, 230);
     weatherHumidity->setFont(font);
     weatherHumidity->setAlignment(Qt::AlignLeft);
