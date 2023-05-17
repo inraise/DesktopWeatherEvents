@@ -120,7 +120,7 @@ void ButtonBar::setCity() {
     currentWeatherData.enterUserCity(city);
     jsonData = currentWeatherData.getJsonWeather();
 
-    if (!city.empty()) {
+    if (!city.empty() and jsonData["cod"] != "404") {
         MainElement(argc, &argv, mainWindow, font,
                     jsonData,
                     currentWeatherData);
