@@ -69,7 +69,7 @@ int UiManagement(
     buttonBar.lineEdit = new QLineEdit(&mainWindow);
     buttonBar.lineEdit->setPlaceholderText("City Name");
     buttonBar.lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
-                            "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
+                                      "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
     widgetActionInput->setDefaultWidget(buttonBar.lineEdit);
 
     auto *button = new QPushButton("Set City");
