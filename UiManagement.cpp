@@ -13,7 +13,6 @@
 
 using namespace std;
 using json = nlohmann::json;
-QLineEdit *lineEdit;
 
 void TopBarElement(
         int argc, char *argv[],
@@ -44,6 +43,7 @@ public:
     string city;
     QFont font;
     QMainWindow *mainWindow{};
+    QLineEdit *lineEdit;
     CurrentWeatherData currentWeatherData;
 };
 
@@ -66,14 +66,13 @@ int UiManagement(
     // menu bar
     auto *widgetActionInput = new QWidgetAction(&mainWindow);
     auto *widgetActionButton = new QWidgetAction(&mainWindow);
-    lineEdit = new QLineEdit(&mainWindow);
-    lineEdit->setPlaceholderText("City Name");
-    lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
+    buttonBar.lineEdit = new QLineEdit(&mainWindow);
+    buttonBar.lineEdit->setPlaceholderText("City Name");
+    buttonBar.lineEdit->setStyleSheet("margin: 5px; background-color: transparent; "
                             "border-radius: 5px; border: 1px gray solid; padding-left: 7px");
-    widgetActionInput->setDefaultWidget(lineEdit);
+    widgetActionInput->setDefaultWidget(buttonBar.lineEdit);
 
     auto *button = new QPushButton("Set City");
-    //buttonBar.city = lineEdit->text().toStdString();
 
     QObject::connect(button, SIGNAL(clicked()), &buttonBar, SLOT(setCity()));
 
